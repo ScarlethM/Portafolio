@@ -1,0 +1,194 @@
+/* Body */
+section {
+    scroll-margin-top: 80px;
+    background-color: #E6E6FA;
+}
+
+.text-center.mb-4 {
+    color: #1E90FF;
+}
+
+/* Navbar */
+.navbar {
+    background: #111;
+    padding: 0.5rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.navbar .nav-link {
+    color: #ffffff;
+}
+
+.navbar .nav-link:hover {
+    color: #20B2AA;
+}
+
+.navbar .container {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    min-height: 3.25rem;
+}
+
+.navbar-collapse {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* Asegúrate de que esto esté presente */
+    max-width: 1100px;
+    margin: auto;
+    padding: 15px 20px;
+}
+
+/* Hero Section */
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/imgs/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 2;
+}
+
+.hero-text h1 {
+    font-size: 60px;
+    margin: 20px;
+}
+
+.hero-text h2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+/* Sobre Mí  */
+.sobre-mi {
+    background-color: #111;
+    height: 60vh;
+    padding: 50px;
+}
+
+.sobre-mi h1 {
+    color: #E6E6FA;
+    text-align: center;
+    margin: 0;
+    padding: 25px 0;
+}
+
+.sobre-mi p {
+    color: #E6E6FA;
+    font-size: 25px;
+    text-align: justify;
+    margin: 0;
+    margin-top: 25px;
+    padding: 25px 0;
+}
+
+/* Skills  */
+.skills-cards .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills-cards .col-12,
+.skills-cards .col-md-3 {
+    flex: 0 0 21%;
+    max-width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.skills-cards i {
+    color: #20B2AA;
+    margin-bottom: 10px;
+}
+
+/* Portafolio */
+.container .icon-button {
+    background-color: #20B2AA;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.container .icon-button:hover {
+    background-color: #1e9c92;
+}
+
+.portafolio h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Card */
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Contactar */
+.contactar {
+    background-color: #E6E6FA;
+    padding: 80px 0;
+}
+
+.container .icon-button {
+    background-color: #20B2AA;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.container .icon-button:hover {
+    background-color: #1e9c92;
+}
+
+/* Footer */
+.footer {
+    background-color: #111;
+    color: #E6E6FA;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: #E6E6FA;
+    margin: 0 10px;
+}
+
+.footer p {
+    font-size: 20px;
+}
+
+.footer a:hover {
+    color: #20B2AA;
+}
